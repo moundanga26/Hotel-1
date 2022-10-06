@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel</title>
 <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">    <link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+ <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <section class="section1">
@@ -24,156 +25,155 @@
             <ul><a href="#Blog">Blog</a></ul>
             <ul><a href="#Our_Services">Shop</a></ul>
             </div>
-            <div class="image1"><a href=""><img src="/images/langue.png" alt=""></a></div>
-            <div class="menu"><img src="/images/Vector (4).png" alt=""></div>
+            <div class="image1"><a href=""><img src="./images/langue.png" alt=""></a></div>
+            <div class="menu"><img src="./images/Vector (4).png" alt=""></div>
         </div>
         <div class="text">
             <h1>Beach Home <br>199.000$</h1>
             <div class="para"><h4 >Lorem ipsum dolor sit amet, consecte adipiscing elit. <br>Suspendisse condimentum porttitor cursumus.</h4></div>
             <div class="petitpara"><p>Start typing & press "Enter" or "ESC" to close</p></div>
         </div>
-        
-          <div class="patron">
-            <div></div> <br> <br>
-            <h2 class="titr">Your New Home</h2> <br>
-            <form action="" method="POST" class="patron1">
-              <label for="name">Name/Surname</label>
-              <div class="group">
-                <input style="width: 350px; height: 40px;border-radius:5px; "   type="text" name="Name" id="name" placeholder="" required />
-              </div>
-              <label for="email">Email</label>
-              <div class="group">                
-                <input style="width: 350px; height: 40px;border-radius:5px; "   type="email" name="Email" id="email" placeholder="" required />
-              </div>
-              <label for="message">Message</label>
-              <div class="group1">
-                <textarea style="width: 350px; height: 7vw; border-radius:5px; "   ></textarea>
-              </div>
-              <div class="group">
-                <button style="height: 40px;background-color: #2250FC;width: 
-                131px;border-radius:5px; " type="submit" class="submit">Get notified</button>
-              </div>
-            </form>
-          </div>
-        
-    </section>
-    <!--fin de la section1 accueil-->
+        <div class="patron">
+          <div></div> <br> <br>
+          <h2 class="titr">Your New Home</h2> <br>
+          <form action="" method="POST" class="patron1">
+            <div class="marge"><label for="name">Name/Surname</label></div>
+            <div class="group">
+              <div class="inpt"><input type="text" name="Name" id="name" placeholder="" required /></div>
+            </div>
+            <div class="marge"> <label for="email">Email</label></div>
+            <div class="group">                
+              <div class="inpt"><input type="email" name="Email" id="email" placeholder="" required /></div>
+            </div>
+            <div class="marge"><label for="message">Message</label></div>
+            <div class="group1">
+              <div class="inpt1"> <textarea></textarea></div>
+            </div>
+            <div class="group">
+              <button  type="submit" class="submit">Get notified</button>
 
-    <!--section minipage-->
-    <section class="minipage">
+            </div>
+          </form>
+        </div>
+      
+  </section>
+  <!--fin de la section1 accueil-->
+      <!--section minipage-->
+      <section class="minipage">
         <div style="height: 80px;;"></div>
-        <h1 style="margin-left: 120px;">You need a new luxury <br> home?</h1> <br>
-        <p style="color: #777777; margin-left: 120px;">Subscribe and get notified for new homes for rent & sale, just for you!</p>
+        <div class="big"><h1>You need a new luxury <br> home?</h1> <br></div>
+        <div class="small"><p>Subscribe and get notified for new homes for rent & sale, just for you!</p>
+        </div>
     </section>
     <!--Fin section minipage-->
 
+    
     <!--section Property Features-->
     
   
     <div class="ecrit" id="feature">
-        <div class="titre"><h1>Property Features</h1></div>
-        <p style=" width: 600px;">Create amam ipsum dolor sit amet, Beautiful nature, and rare feathers!</p>
-    </div>    
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="service-item wow bounceInUp">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="icon">
-                  <img src="/images/Vector (6).png" alt="">
-                </div>
+      <div class="titre"><h1>Property Features</h1></div>
+      <div class="small1"><p>Create amam ipsum dolor sit amet, Beautiful nature, and rare feathers!</p></div>
+  </div>    
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="icon">
+                <img src="./images/Vector (6).png" alt="">
               </div>
-              <div class="col-lg-8">
-                <div class="right-content">
-                  <h4>1800 Square Feet</h4>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
-                </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="right-content">
+                <h4>1800 Square Feet</h4>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="service-item wow bounceInUp">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="icon">
-                  <img src="/images/Vector (7).png" alt="">
-                </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="icon">
+                <img src="./images/Vector (7).png" alt="">
               </div>
-              <div class="col-lg-8">
-                <div class="right-content">
-                  <h4>4 Bedrooms</h4>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
-                </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="right-content">
+                <h4>4 Bedrooms</h4>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="service-item wow bounceInUp">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="icon">
-                  <img src="/images/Vector (8).png" alt="">
-                </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="icon">
+                <img src="./images/Vector (8).png" alt="">
               </div>
-              <div class="col-lg-8">
-                <div class="right-content">
-                  <h4>Build in 2015</h4>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
-                </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="right-content">
+                <h4>Build in 2015</h4>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="service-item wow bounceInUp">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="icon">
-                  <img src="/images/Vector (9).png" alt="">
-                </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="icon">
+                <img src="./images/Vector (9).png" alt="">
               </div>
-              <div class="col-lg-8">
-                <div class="right-content">
-                  <h4>3 Car Parking</h4>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
-                </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="right-content">
+                <h4>3 Car Parking</h4>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="service-item wow bounceInUp">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="icon">
-                  <img src="/images/Vector (10).png" alt="">
-                </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="icon">
+                <img src="./images/Vector (10).png" alt="">
               </div>
-              <div class="col-lg-8">
-                <div class="right-content">
-                  <h4>Near Hospital</h4>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
-                </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="right-content">
+                <h4>Near Hospital</h4>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="service-item wow bounceInUp">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="icon">
-                  <img src="/images/Vector (11).png" alt="">
-                </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="service-item wow bounceInUp">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="icon">
+                <img src="./images/Vector (11).png" alt="">
               </div>
-              <div class="col-lg-8">
-                <div class="right-content">
-                  <h4>Weelchair spaces</h4>
-                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
-                </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="right-content">
+                <h4>Weelchair spaces</h4>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dormque laudantium.</p>
               </div>
             </div>
           </div>
@@ -181,150 +181,180 @@
       </div>
     </div>
   </div>
+</div>
+ <!--Fin de la section Property Features-->
 
-  <!--Fin de la section Property Features-->
-
-  <!--section DO YOU LIKE WHAT YOU SEE-->
-  <section class="section3">
-    <div class="ecrit2">
-        <div></div> <br> <br> 
-        <div class="titre"><h2>DO YOU LIKE WHAT YOU SEE</h2></div>
-        <p>Beautiful websites are now easy to made! Ready to Purchase POLO Template?</p>
-    </div>
-  </section>
-
-   <!--FIN de la section DO YOU LIKE WHAT YOU SEE-->
-
-   <!--section porfolio-->
-   <section class="portfolio">
-    <div class="folio">
-        <div class="img"><img src="/images/IMAGE (1).png" alt=""></div>
-        <div class="ecrit3">
-            <h1>Juna Smith</h1>
-            <p>Suspendisse commodo auctor molestie. Mauris arisusvitae massa consequat pharetra. Suspendisse dapibus erat lectus rutrum bibendum. Praesent scscelerisque.</p>
-            <p>Fusce vel enim sapien. Vivamus pellentesque hendrerit erat, sit amet dictum nibh viverra iaculis. Sed porta nisl molestie hendrerit. Integer tempus pulvinar laoreet.</p>
-            <p><span style="color:#007BFF ;">Contact Juna now</span></p>
-        </div>
-    </div>
-   </section>
-   <!-- fin de la section porfolio-->
-
-   <!--section multi-photo -->
-
-   <section class="section4">
-   <div class="ecrit4">
-    <h1 >PROPERTIES</h1>
-    <p>Lorem ipsum dolor sit amet, coper suscipit lobortis nisl ut aliquip ex  ea commodo consequat. Duis autem vel eum iriure dolor <br> in hendrerit in vulputate velit esse molestie consequat,  vel illum dolore eu feugiat nulla facilisis at vero eros <br> et accumsan et iusto.</p>
-   </div>
-    <div>
-        <div class="photo">
-            <div class="photo1"></div>
-            <div class="photo2"></div>
-            <div class="photo3"></div>
-            <div class="photo4"></div>
-        </div>
-        <div class="photo">
-            <div class="photo5"></div>
-            <div class="photo6"></div>
-            <div class="photo7"></div>
-            <div class="photo8"></div>
-        </div>
-    </div>
-
-
-    </section>
-<!-- Fin de la section multi-photo -->
-
-<!--section statistique -->
-<section class="section5">
-    <div style="height: 90px; ;"></div>
-    <div class="chiffre">
-        <div class="chiffre1">
-            <h2>122</h2> 
-            <h2>61</h2>
-            <h2>2736</h2>
-            <h2>1/5</h2>
-        </div> <br> <br>
-        <div class="lettre">
-            <p>Happy Clients</p>
-            <p>Home Sold</p>
-            <p>Square Feet</p>
-            <p>Success Rate</p>
-        </div>
-    </div>
+ <!--section DO YOU LIKE WHAT YOU SEE-->
+ <section class="section3">
+  <div class="ecrit2">
+      <div></div> <br> <br> 
+      <div class="titre"><h2>DO YOU LIKE WHAT YOU SEE</h2></div>
+      <div class="small2"><p>Beautiful websites are now easy to made! Ready to Purchase POLO Template?</p></div>
+      <div class="video">VIDEO</div>
+      <button class="bouton">Buy POLO</button>
+  </div>
 </section>
+
+ <!--FIN de la section DO YOU LIKE WHAT YOU SEE-->
+    <!--section porfolio-->
+    <section class="portfolio">
+      <div class="folio">
+          <div class="img1"><img src="./images/IMAGE (1).png" alt=""></div>
+          <div class="ecrit3">
+              <h1>Juna Smith</h1>
+              <p>Suspendisse commodo auctor molestie. Mauris arisusvitae massa consequat pharetra. Suspendisse dapibus erat lectus rutrum bibendum. Praesent scscelerisque.</p>
+              <p>Fusce vel enim sapien. Vivamus pellentesque hendrerit erat, sit amet dictum nibh viverra iaculis. Sed porta nisl molestie hendrerit. Integer tempus pulvinar laoreet.</p>
+              <p><span style="color:#007BFF ;">Contact Juna now</span></p>
+          </div>
+      </div>
+     </section>
+     <!-- fin de la section porfolio-->
+
+     <section class="section4">
+      <div class="ecrit4">
+       <h1 >PROPERTIES</h1>
+       <p>Lorem ipsum dolor sit amet, coper suscipit lobortis nisl ut aliquip ex  ea commodo consequat. Duis autem vel eum iriure dolor <br> in hendrerit in vulputate velit esse molestie consequat,  vel illum dolore eu feugiat nulla facilisis at vero eros <br> et accumsan et iusto.</p>
+      </div>
+       <div>
+           <div class="photo">
+               <div class="photo1"></div>
+               <div class="photo2"></div>
+               <div class="photo3"></div>
+               <div class="photo4"></div>
+           </div>
+           <div class="photo">
+               <div class="photo5"></div>
+               <div class="photo6"></div>
+               <div class="photo7"></div>
+               <div class="photo8"></div>
+           </div>
+       </div>
+       <div class="chifflettre">
+        <h2>122</h2>
+        <p>Happy Clients</p>
+        <h2>61</h2>
+        <p>Home Sold</p>
+        <h2>2736</h2>
+        <p>Square Feet</p>
+        <h2>1/5</h2>
+        <p>Success Rate</p>
+        
+</div>
+   
+   
+       </section>
+   <!-- Fin de la section multi-photo -->
+
+   <!--section statistique -->
+<section class="section5">
+  <div style="height: 90px; ;"></div>
+  <div class="chiffre">
+      <div class="chiffre1">
+          <h2>122</h2> 
+          <h2>61</h2>
+          <h2>2736</h2>
+          <h2>1/5</h2>
+      </div> <br> <br>
+      <div class="lettre">
+          <p>Happy Clients</p>
+          <p>Home Sold</p>
+          <p>Square Feet</p>
+          <p>Success Rate</p>
+      </div>
+  </div>
+  
+</section>
+
 <!--Fin de la section statistique -->
 
 <!--section OUR PARTNERS -->
 <section class="section6">
-        <div class="ecrit2">
-            <div></div> <br> <br>
-            <h1 class="titre">OUR PARTNERS</h1>
-        </div> <br> <br>
-            <p class="ecrit6">Praesent sagittis risus nisi, a fermentum tellus aliquam vel. Ut faucibus, mauris quis fermentum placerat, sem turpis <br> <span style="margin-left: 27vw;">volutpat massa</span></p> <br> <br>
-        <div class="partners">
-            <div class="part">
-                <div class="partN"><img src="/images/part1.png" alt=""></div>
-                <div class="partN"><img src="/images/part2.png" alt=""></div>
-                <div class="partN"><img src="/images/part3.png" alt=""></div>
-            </div>
+  <div class="ecrit2"> 
+      <div></div> <br> <br>
+      <h1 class="titre0">OUR PARTNERS</h1>
+  </div> <br> <br>
+      <p class="ecrit6">Praesent sagittis risus nisi, a fermentum tellus aliquam vel. Ut faucibus, mauris quis fermentum placerat, sem turpis <br> <span style="margin-left: 27vw;">volutpat massa</span></p> <br> <br>
+  <div class="partners">
+      <div class="part">
+          <div class="partN"><img src="./images/part1.png" alt=""></div>
+          <div class="partN"><img src="./images/part2.png" alt=""></div>
+          <div class="partN"><img src="./images/part3.png" alt=""></div>
+      </div>
+  </div>
+  <div class="partners2">
+      <div class="part0">
+          <div class="partM"><img src="./images/part4.png" alt=""></div>
+          <div class="partM"><img src="./images/part5.png" alt=""></div>
+          <div class="partM"><img src="./images/part6.png" alt=""></div>
+          <div class="partM"><img src="./images/part7.png" alt=""></div>
+      </div>
+  </div> 
+        <div class="logopart">
+          <div class="partN1">
+              <img src="./images/part1.png" alt="">
+              <img src="./images/part2.png" alt="">
+              <img src="./images/part1.png" alt="">
+              <img src="./images/part2.png" alt="">
+              
+              
+          </div>
+          <div class="partM1">
+              <img src="./images/part4.png" alt="">
+              <img src="./images/part5.png" alt="">
+              <img src="./images/part4.png" alt="">
+              <img src="./images/part5.png" alt="">
+              
+          </div>
         </div>
-        <div class="partners2">
-            <div class="part0">
-                <div class="partM"><img src="/images/part4.png" alt=""></div>
-                <div class="partM"><img src="/images/part5.png" alt=""></div>
-                <div class="partM"><img src="/images/part6.png" alt=""></div>
-                <div class="partM"><img src="/images/part7.png" alt=""></div>
-            </div>
-        </div> 
 </section>
 <!--Fin de la section6 OUR PARTNERS -->
 
+
 <!--section7 formulaire -->
 <section class="section7">
-    <div></div> <br> <br><br><br>
-    <div class="form">
-      <div></div> <br> <br>
-      <div class="ecrit5">
-        <h1 style="color: white;">GET FREE CONSULTATION</h1> <br> <br>
-        <p style="color:white ;" >Praesent sagittis risus nisi, a fermentum tellus aliquam vel. Ut faucibus, mauris quis fermentum placerat ,<br> sem turpis volutpat massa.</p>
-      </div> 
-        <div class="formbold-main-wrapper">
-            <div class="formbold-form-wrapper">
-              <form class="row g-3" style="width: 140%;">
-                <div class="col-md-6">
-                  <label for="inputEmail4" class="form-label">Name</label>
-                  <input type="Name" class="form-control" id="inputName">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputPassword4" class="form-label">Email</label>
-                  <input type="Email" class="form-control" id="inputEmail">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputnumber" class="form-label">Phone</label>
-                  <input type="number" class="form-control" id="inputnumber">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputtext" class="form-label">Company</label>
-                  <input type="text" class="form-control" id="inputtext">
-                </div>       
-                <div class="formbold-mb-5">
-                  <label for="message" class="formbold-form-label"> Message </label>
-                  <textarea
-                    rows="6"
-                    name="message"
-                    id="message"
-                    placeholder=""
-                    class="formbold-form-input"
-                  ></textarea>
-                </div>
-                <div>
-                  <button class="formbold-btn">Send message</button>
-                </div>
-              </form>
-            </div>
-          </div>   
-    </div>
+  <div></div> <br> <br><br><br>
+  <div class="form">
+    <div></div> <br> <br>
+    <div class="ecrit5">
+      <h1 style="color: white;">GET FREE CONSULTATION</h1> <br> <br>
+      <p style="color:white ;" >Praesent sagittis risus nisi, a fermentum tellus aliquam vel. Ut faucibus, mauris quis fermentum placerat ,<br> sem turpis volutpat massa.</p>
+    </div> 
+      <div class="formbold-main-wrapper">
+          <div class="formbold-form-wrapper">
+            <form class="row g-3" style="width: 140%;">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Name</label>
+                <input type="Name" class="form-control" id="inputName">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Email</label>
+                <input type="Email" class="form-control" id="inputEmail">
+              </div>
+              <div class="col-md-6">
+                <label for="inputnumber" class="form-label">Phone</label>
+                <input type="number" class="form-control" id="inputnumber">
+              </div>
+              <div class="col-md-6">
+                <label for="inputtext" class="form-label">Company</label>
+                <input type="text" class="form-control" id="inputtext">
+              </div>       
+              <div class="formbold-mb-5">
+                <label for="message" class="formbold-form-label"> Message </label>
+                <textarea
+                  rows="6"
+                  name="message"
+                  id="message"
+                  placeholder=""
+                  class="formbold-form-input"
+                ></textarea>
+              </div>
+              <div>
+                <button class="formbold-btn">Send message</button>
+              </div>
+            </form>
+          </div>
+        </div>   
+  </div>
 </section>
 <!--Fin de la section7 formulaire -->
 
@@ -365,6 +395,12 @@
         <p>Privacy Policy</p>
       </div>
       
+      
+    </div>
+    <div class="right3">
+      <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has  been the <br> industry's</h4> <br> <br>
+      <p>Terms and Conditions</p>
+      <p>Privacy Policy</p>
     </div>
     </div>
   
@@ -378,6 +414,9 @@
 
 </section>
 
-        
+
+
+
+   
 </body>
 </html>

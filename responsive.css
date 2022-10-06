@@ -1,0 +1,543 @@
+@media  only screen and (max-width:600px) {
+  
+  *{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+  }
+  /*section Accueil*/
+  .containe{
+    display: flex;
+    background-color: white;
+    width: 330px;
+    height: 90px;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-around;
+    margin-left: 40px;
+  }
+  .menu{
+    display: inline;
+  }
+  ul a{
+    text-decoration: none;
+    color: black;
+  }
+  .ula{
+    display: none;
+    justify-content: space-between;
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 15px;
+  
+  }
+  .section1{
+    background-image: url(images/IMAGE.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .text{
+    font-size: 40px;
+    color: white;
+    margin-top: 90px;
+    margin-left: 140px;
+    
+  }
+  .para{
+    font-size: 30px;
+  }
+  .petitpara{
+    color:  #6C757D;
+    font-size: 11px;
+    margin-left: 30vw;
+  }
+  
+  /* petit formulaire*/
+  .patron{
+  height: 400px;
+  width: 340px;
+  background-color: white;
+  position: absolute;
+  margin-left: 6vw;
+  margin-top: 110vw;
+  
+  }
+  .patron1 {
+  margin-left: 3vw;
+  }
+  .titr{
+  margin-left: 3vw;
+  }
+  .inpt input{
+    width: 300px;
+    height: 30px;
+    border-radius:3px;
+    margin-left: 3vw;
+  }
+  .inpt1 textarea{
+    width: 300px;
+    height: 60px;
+    border-radius:3px;
+    margin-left: 3vw;
+  }
+  .group button{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    background-color: #2250FC;
+  }
+  .marge{
+    margin-left: 3vw;
+  }
+  
+  /* Fin section Accueil*/
+  
+  /*section minipage*/
+  
+  .minipage{
+    height: 450px;
+    background-color: #F7F9FB;
+  }
+  .big{
+    margin-left: 25px;
+  }
+  .small{
+    color: #777777;
+    margin-left: 25px;
+  }
+  
+  /* section Property Features*/
+  
+  .small1 p{
+    margin-top: 7vw;
+    margin-left: -13vw;
+  }
+  .small1{
+    width: 250px;
+  }
+  p{
+    color: #777777;
+  }
+  h3{
+    margin-left: 25px;
+  }
+  .ecrit{
+    margin-left: 30vw;
+  }
+  .titre{
+    margin-left: -15vw;
+    margin-top: 60vw;
+  }
+  
+  .our-services {
+    padding-top: 120px;
+  }
+  
+  .our-services .section-heading {
+    text-align: center;
+    margin-left: 75px;
+    margin-right: 75px;
+  }
+  
+  .our-services .container-fluid {
+    padding: 0px 80px;
+  }
+  
+  .service-item {
+    padding: 60px 30px;
+    border: 2px solid #f7f7f7;
+    border-radius: 5px;
+    transition: all .3s;
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  .service-item .icon {
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    text-align: center;
+    line-height: 80px;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+  }
+  
+  .service-item .icon img {
+      width: 38px;
+      height: 38px;
+  }
+  
+  .service-item h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #2a2a2a;
+    margin-bottom: 15px;
+  }
+  
+  /*section DO YOU LIKE WHAT YOU SEE */
+  
+  .section3{
+    background-color: #F7F9FB;
+    height: 255px;
+  }
+  .ecrit2{
+    margin-left: 20vw;
+  }
+  .video{
+    display: none;
+  }
+  .small2{
+    display: none;
+  }
+  .bouton{
+    display: inline;
+    background-color: #2250FC;
+    width: 96px;
+    height: 37px;
+    border-radius: 5px;
+    margin-left: 60px;
+  }
+  .titre h2{
+    margin-top: -50vw;
+    width: 350px;
+  }
+  
+  
+  /* section porfolio */
+  .portfolio{
+    width: 100%;
+    height: 70vh;
+  }
+  .folio{
+    display: flex;
+    width: 100%;
+    margin-top: 90px;
+    
+  }
+  .ecrit3{
+    margin-top: 60vw;
+    margin-left: -100vw;
+    width: 300px;
+  }
+  .img1 img{
+    width: 300px;
+  }
+  
+  /* Fin de la section porfolio */
+  
+  /* Section des multiphoto*/
+  
+  .section4{
+    width: 100%;
+    height: 100vh;
+  }
+   .photo1{
+    background-image: url(/images/copie.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+  }
+  .photo2{
+    background-image: url(/images/copie2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+  }
+  .photo3{
+    background-image: url(/images/copie1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+  }
+  .photo4{
+    background-image: url(/images/copie.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+  }
+  .photo8{
+    background-image: url(/images/copie4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+  }
+  .photo7{
+    background-image: url(/images/copie2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+  }
+  .photo6{
+    background-image: url(/images/copie3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+  }
+  .photo5{
+    background-image: url(/images/copie.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+  }
+  
+  .photo{
+    display: inline;
+    
+  }
+  .ecrit4{
+    margin-left: 5vw;
+    margin-top: 30vw;
+  }
+  
+  /* Fin de la section multiphoto*/
+  
+  /*section statistique*/
+  
+  .section5{
+    height: 70vh;
+    display: none;
+    width: 100%;
+    background-color: #F7F9FB;
+  }
+  .chiffre{
+    display: none;
+  }
+  
+  .chifflettre{
+    display: inline;
+    background-color: #F7F9FB;
+    text-align: center;
+  }
+  
+  /*Fin de la section statistique*/
+  
+  /* section6 OUR PARTNERS */
+  .section6{
+    height:90vh;
+    width: 100%;
+    margin-top: 540vw;
+  } 
+  .part{
+    
+    display: none;
+    justify-content: space-around;
+  }
+  .part0{
+    
+    display: none;
+    justify-content: space-around;
+  }
+  .partners{
+    height: 20vh;
+    display: none;
+  }
+  .ecrit0{
+    margin-left: 13vw;
+  }
+  .logopart{
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  .partN1{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 60vw;
+    
+  }
+  .partN1 img{
+    padding: 4vw;
+  }
+  .partM1 img{
+    padding: 4vw;
+  }
+  .partM1{
+    
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 60vw;
+    
+  }
+  .titre0{
+    margin-left: 1vw;
+  }
+  .ecrit6{
+    margin-left: 12vw;
+    text-align: left;
+  }
+  /*Fin de la section6 OUR PARTNERS */
+  
+  /*Section7 le formulaire */
+  .section7{
+    height: 180vh;
+    width: 100%;
+    background-color: #F7F9FB;
+  }
+  .form{
+    background-color: #2250FC;
+    width:360px;
+    height: 1050px;
+    margin-left: 2vw;
+  }
+  .ecrit5{
+    margin-left: 3vw;
+  }
+  .form-label{
+    color: white;
+  }
+  .formbold-mb-5 {
+    margin-bottom: 20px;
+  }
+  .formbold-pt-3 {
+    padding-top: 12px;
+  }
+  .formbold-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+    margin-right: 14vw;
+  }
+  
+  .formbold-form-wrapper {
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
+    
+  }
+  .formbold-form-label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ececf1;
+    margin-bottom: 12px;
+  }
+  .formbold-form-label-2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .formbold-form-input {
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    
+    font-weight: 500;
+    font-size: 16px;
+    color: #6b7280;
+    outline: none;
+    resize: none;
+  }
+  .formbold-form-input:focus {
+    border-color: #6a64f1;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .formbold-btn {
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 14px 32px;
+    border: none;
+    font-weight: 600;
+    background-color: #f0f0f5;
+    color: rgb(30, 30, 30);
+    cursor: pointer;
+  }
+  .formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .formbold--mx-3 {
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  .formbold-px-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .w-full {
+    width: 100%;
+  }
+  @media (min-width: 540px) {
+    .sm\:w-half {
+      width: 50%;
+    }
+  }
+  
+  /*Fin de la Section7 le formulaire */
+  
+  /*Section8 le footer */
+  
+  .section8{
+    height: 200vh;
+    width: 100%;
+    background-color: #181818;
+  }
+  .footerleft{
+    width: 100%;
+    height: 60vh;
+    
+    
+  }
+  .left1{
+    transform: translate(25px, 10px)
+  }
+  .right {
+  
+   display: none;
+  }
+  .right3 {
+    display: inline;
+    width: 93%;
+    height: 40vh;
+    position: absolute;
+    bottom: -2605vw;
+  }
+  
+  .left2{
+    margin-top: 200vw;
+    transform: translate(-70px , 10px);
+  
+  }
+  .left3{
+    margin-top: 350vw;
+    transform: translate(-170px , 60px);
+    margin-right: 120px;
+  }
+  h4{
+    color: #f0f0f5;
+  }
+  /* Fin de la Section8 le footer */
+  
+  /* Section9 pache blanche */
+  
+  .section9{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+  }
+    
+  }
